@@ -76,6 +76,22 @@
 --max-width-8: 64rem;
 --max-width-9: 96rem;
 
+--grid-column: 3.75rem;
+--grid-gutter: 2rem;
+
+--grid-col-1: var(--grid-column);
+--grid-col-2: calc( (var(--grid-column) * 2) + (var(--grid-gutter) * 1) );
+--grid-col-3: calc( (var(--grid-column) * 3) + (var(--grid-gutter) * 2) );
+--grid-col-4: calc( (var(--grid-column) * 4) + (var(--grid-gutter) * 3) );
+--grid-col-5: calc( (var(--grid-column) * 5) + (var(--grid-gutter) * 4) );
+--grid-col-6: calc( (var(--grid-column) * 6) + (var(--grid-gutter) * 5) );
+--grid-col-7: calc( (var(--grid-column) * 7) + (var(--grid-gutter) * 6) );
+--grid-col-8: calc( (var(--grid-column) * 8) + (var(--grid-gutter) * 7) );
+--grid-col-9: calc( (var(--grid-column) * 9) + (var(--grid-gutter) * 8) );
+--grid-col-10: calc( (var(--grid-column) * 10) + (var(--grid-gutter) * 9) );
+--grid-col-11: calc( (var(--grid-column) * 11) + (var(--grid-gutter) * 10) );
+--grid-col-12: calc( (var(--grid-column) * 12) + (var(--grid-gutter) * 11) );
+
 --red-000: #2a1311;
 --red-100: #4d1d1c;
 --red-200: #732627;
